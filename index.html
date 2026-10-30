@@ -4,16 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>महाराष्ट्र राज्य केंद्रप्रमुख व अधिकारी महासंघ</title>
-    <!-- Tailwind CSS CDN -->
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Serif+Devanagari:wght@600;700&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style>
-        body {
-            font-family: 'Noto Sans Devanagari', sans-serif;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            font-family: 'Noto Serif Devanagari', serif;
-        }
+        body { font-family: 'Noto Sans Devanagari', sans-serif; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Noto Serif Devanagari', serif; }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col justify-between">
@@ -29,59 +26,36 @@
                 </div>
             </div>
             <nav class="flex space-x-4 text-sm font-medium">
-                <a href="#about" class="hover:text-orange-400 transition">माहिती</a>
-                <a href="#objectives" class="hover:text-orange-400 transition">उद्दिष्टे</a>
-                <a href="#contact" class="hover:text-orange-400 transition">संपर्क</a>
+                <a href="index.html" class="text-orange-400 transition">मुख्य पृष्ठ</a>
+                <a href="about.html" class="hover:text-orange-400 transition">माहिती</a>
+                <a href="leadership.html" class="hover:text-orange-400 transition">नेतृत्व</a>
+                <a href="features.html" class="hover:text-orange-400 transition">उद्दिष्टे</a>
+                <a href="contact.html" class="hover:text-orange-400 transition">संपर्क</a>
             </nav>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-gradient-to-b from-blue-900 to-blue-800 text-white py-16 px-4 text-center">
-        <div class="max-w-3xl mx-auto">
-            <h2 class="text-3xl md:text-4xl font-bold mb-4">केंद्रप्रमुख व अधिकाऱ्यांच्या हक्कांचे सक्षम व्यासपीठ</h2>
-            <p class="text-lg text-blue-100 mb-8">शिक्षण विभागातील गुणवत्ता वाढ, प्रशासनिक सुलभता आणि अधिकार रक्षणासाठी कटिबद्ध.</p>
-            <a href="#about" class="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition">अधिक जाणून घ्या</a>
+    <section class="bg-blue-800 text-white py-16 text-center">
+        <div class="container mx-auto px-4 space-y-4">
+            <h2 class="text-3xl md:text-5xl font-bold">केंद्रप्रमुख व अधिकाऱ्यांच्या हक्कांचे सक्षम व्यासपीठ</h2>
+            <p class="text-blue-200 max-w-2xl mx-auto text-base md:text-lg">
+                शिक्षण विभागातील गुणवत्ता वाढ, प्रशासनिक सुलभता आणि अधिकार रक्षणासाठी कटिबद्ध.
+            </p>
+            <div>
+                <a href="about.html" class="inline-block bg-orange-500 hover:bg-orange-600 text-white font-medium px-6 py-3 rounded-lg shadow transition">अधिक जाणून घ्या</a>
+            </div>
         </div>
     </section>
 
     <!-- Main Content -->
-    <main class="container mx-auto px-4 py-12 flex-grow space-y-12">
-        
-        <!-- About Section -->
-        <section id="about" class="bg-white p-6 md:p-8 rounded-xl shadow-sm border border-gray-200">
-            <h3 class="text-2xl font-bold text-blue-900 mb-4 border-b pb-2">संस्थेबद्दल परिचय</h3>
-            <p class="text-gray-700 leading-relaxed mb-4">
+    <main class="container mx-auto px-4 py-12 flex-grow space-y-8">
+        <section class="bg-white p-6 md:p-10 rounded-xl shadow-sm border border-gray-200">
+            <h3 class="text-2xl font-bold text-blue-900 mb-4 border-b pb-3">संस्थेबद्दल परिचय</h3>
+            <p class="text-gray-700 leading-relaxed">
                 महाराष्ट्र राज्य केंद्रप्रमुख व अधिकारी महासंघ ही राज्यभरातील केंद्रप्रमुख, विस्तार अधिकारी आणि शिक्षण विभागातील सनदी अधिकाऱ्यांच्या अडीअडचणी सोडवण्यासाठी, त्यांच्या सेवाविषयक हक्कांचे रक्षण करण्यासाठी आणि शैक्षणिक पातळीवर उत्कृष्ट सुधारणा घडवून आणण्यासाठी एकत्र आलेली अधिकृत संघटना आहे[cite: 3, 4, 5, 6].
             </p>
-            <p class="text-gray-700 leading-relaxed">
-                प्राथमिक व माध्यमिक शाळांच्या स्तरावर शैक्षणिक गुणवत्ता उंचावणे आणि शिक्षकांना योग्य व सुलभ मार्गदर्शन उपलब्ध करून देणे हे या महासंघाचे मुख्य ध्येय आहे.
-            </p>
         </section>
-
-        <!-- Objectives Section -->
-        <section id="objectives" class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 border-l-4 border-l-blue-900">
-                <h4 class="text-lg font-bold text-blue-900 mb-2">सेवाविषयक हक्क</h4>
-                <p class="text-sm text-gray-600">अधिकारी व केंद्रप्रमुखांच्या पदोन्नती, सेवांतर्गत अटी व हक्कांचे कायदेशीर संरक्षण करणे[cite: 5].</p>
-            </div>
-            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 border-l-4 border-l-orange-500">
-                <h4 class="text-lg font-bold text-blue-900 mb-2">शैक्षणिक गुणवत्ता</h4>
-                <p class="text-sm text-gray-600">शाळांमध्ये पायाभूत साक्षरता व संख्याज्ञान (FLN) आणि गुणवत्तापूर्ण शिक्षण सुनिश्चित करणे.</p>
-            </div>
-            <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 border-l-4 border-l-blue-900">
-                <h4 class="text-lg font-bold text-blue-900 mb-2">प्रशासन व संवाद</h4>
-                <p class="text-sm text-gray-600">शासन आणि शाळा यांच्यात प्रभावी संवाद प्रस्थापित करून प्रशासकीय कामकाज सुटसुटीत करणे.</p>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="bg-blue-50 p-6 md:p-8 rounded-xl border border-blue-100 text-center">
-            <h3 class="text-2xl font-bold text-blue-900 mb-3">संपर्क व मार्गदर्शन</h3>
-            <p class="text-gray-700 mb-4">महासंघाच्या कार्याविषयी किंवा आपल्या भागातील अडीअडचणींसाठी संपर्कात राहा.</p>
-            <span class="inline-block bg-blue-900 text-white font-medium px-4 py-2 rounded-lg">Maharashtra State Kendrapramukh Mahasangh</span>
-        </section>
-
     </main>
 
     <!-- Footer -->
